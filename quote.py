@@ -2,7 +2,7 @@ from requests import get
 from tkinter import Canvas
 
 
-def kanye():
+def kanye_quote():
     canvas = Canvas()
     quote_text = canvas.create_text(150, 207, text="Kanye's quote", width=250, font=("Arial", 20, "bold"),
                                     fill="white")

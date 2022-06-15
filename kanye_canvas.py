@@ -1,10 +1,10 @@
 from tkinter import *
-from module1 import kanye
+from quote import kanye_quote
 
 
-def creating():
+def create_canvas():
     def get_quote():
-        return kanye()
+        return kanye_quote()
 
     window = Tk()
     window.title("KANYE WEST'S QUOTES")
